@@ -1,0 +1,9 @@
+module Restaurant{
+  interface RestaurantInterface{
+      string view_menu();
+      string place_order(in string food_id,in string name, in long quantity);
+      long total_price();
+      string view_current_orders();
+      string check_order_status(in string name);
+      };
+};
